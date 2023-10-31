@@ -8,7 +8,7 @@ var otp;
 let transporter = nodemailer.createTransport(
   sendgridTransport({
     auth: {
-      api_key: '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'
+      api_key: "Your API KEY"
     }
   })
 );
